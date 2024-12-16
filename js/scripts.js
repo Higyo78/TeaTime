@@ -25,9 +25,9 @@ let images = {
     teacup: new Image(),
     guard: new Image(),
 };
-images.bush.src = "/img/bush.png";
-images.teacup.src = "/img/cup-of-tea.png";
-images.guard.src = "/img/theguard.png";
+images.bush.src = "./img/bush.png";
+images.teacup.src = "./img/cup-of-tea.png";
+images.guard.src = "./img/theguard.png";
 
 
 class GameObject {
